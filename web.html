@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sahu_Cafe</title>
+        <link rel="stylesheet" type="text/css" href="we.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <div class ="row clearfix">
+                    <a href="https://www.google.com/search?sxsrf=ALeKk01IFc1LUZjmQBsc2Or7sPhHyvxlYw%3A1609686717642&source=hp&ei=vd7xX939JJ6E4t4PkbCayAE&q=cake+picture&oq=cake+p&gs_lcp=CgZwc3ktYWIQARgBMggIABCxAxCRAjIICAAQsQMQkQIyBQgAELEDMgUIABCxAzICCAAyBQguELEDMgIIADICCAAyAggAMgIIADoHCCMQ6gIQJzoECCMQJzoICAAQyQMQkQI6BQgAEJECOggIABCxAxCDAToCCC46BQgAEMkDOgUIABCSA1C3J1iQQGC4XGgCcAB4AIABiwKIAaIJkgEFMC41LjGYAQCgAQGqAQdnd3Mtd2l6sAEK&sclient=psy-ab">
+                        <img src="../web site/cake.jpg"  class="logo">
+                    </a>
+
+                    <ul class ="main-nav animated slideInDown" id="check-class">
+                        <li><a href="#" onclick="cake_delivery()">CAKE DELIVERY <i class="CAKE DELIVERY" ></i></a></li>
+                        <li><a href="#">HOW TO ORDERD </a></li>
+                        <li><a href="#"> CHECK MORE </a></li>
+                        <li><a href="#">Sign up </a></li>
+                        
+
+                    </ul>
+                    <ul class="order" id="order-id" >
+                        <li><a href="#"> Blackvery </a></li>
+                        <li><a href="#"> Butterscotch </a></li>
+                        <li><a href="#"> Benalla cake </a></li>
+
+                    </ul>
+                    <marquee><b>* _Welcome to sahu cafe_ *</b></marquee>
+                    <a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+
+                </div>
+            </nav>
+
+            
+            <div class ="main-content-header">
+                <h1>WELCOM TO <span class="colorchange">SAHU CAFE</span>.<br> 
+                    HOUSE OF CAKE LOVER OO YES </h1>
+                <a href="#" class ="btn btn-full1"> click to order</a>
+                <a href="#" class ="btn btn-full2"> show me more</a>
+                
+                <p>
+                        
+                        Contact us on mail:<a href="mailto:smartsahu0@gmail.com">admin@website.com</a>
+                        
+                        Contact us on phone:<a href="">8601062485</a>
+                </p>
+                
+                
+            </div>
+            
+        </header>
+        
+        <script type="text/javascript">
+            function slideshow(){
+                var x=document.getElementById('check-class');
+                if(x.style.display === "none"){
+                    x.style.display="block";
+                }else{
+                   x.style.display="none"
+
+                }
+            }
+
+        </script>
+        <script type="text/javascript">
+            function cake_delivery(){
+                var a=document.getElementById("order-id");
+                if(a.style.display === "none"){
+                    a.style.display="block";
+                }else{
+                   a.style.display="none"
+
+                }
+            }
+
+        </script>
+        
+    </body>
+
+</html>
